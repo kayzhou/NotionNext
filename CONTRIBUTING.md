@@ -1,9 +1,10 @@
 # Contributing
 
-- [Setup](#setup)
-- [Creating new themes](#creating-new-themes)
-- [Adding localizations](#adding-localizations)
-- [Environment Variables](#environment-variables)
+- [Contributing](#contributing)
+  - [Setup](#setup)
+  - [Creating new themes](#creating-new-themes)
+  - [Adding localizations](#adding-localizations)
+  - [Environment Variables](#environment-variables)
 
 Thanks for considering to contribute!
 
