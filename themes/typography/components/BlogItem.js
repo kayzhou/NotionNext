@@ -49,12 +49,10 @@ export const BlogItem = props => {
           <header className='text-md text-[var(--primary-color)] dark:text-gray-300 flex-wrap flex items-center leading-6'>
             <div className='space-x-2'>
               <span className='text-sm'>
-                发布于
-                <SmartLink
-                  className='p-1 hover:text-red-400 transition-all duration-200'
-                  href={`/archive#${formatDateFmt(post?.publishDate, 'yyyy-MM')}`}>
-                  {post.date?.start_date || post.createdTime}
-                </SmartLink>
+                更新于
+                <span className='p-1'>
+                  {formatDateFmt(post?.lastEditedDate, 'yyyy-MM-dd')}
+                </span>
               </span>
             </div>
 
