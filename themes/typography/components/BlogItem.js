@@ -58,27 +58,6 @@ export const BlogItem = props => {
               </span>
             </div>
 
-            <div className='text-sm'>
-              {/* {post.category && (
-                <SmartLink href={`/category/${post.category}`} className='p-1'>
-                  {' '}
-                  <span className='hover:text-red-400 transition-all duration-200'>
-                    <i className='fa-regular fa-folder mr-0.5' />
-                    {post.category}
-                  </span>
-                </SmartLink>
-              )} */}
-              {post?.tags &&
-                post?.tags?.length > 0 &&
-                post?.tags.map(t => (
-                  <SmartLink
-                    key={t}
-                    href={`/tag/${t}`}
-                    className=' hover:text-red-400 transition-all duration-200'>
-                    <span> #{t}</span>
-                  </SmartLink>
-                ))}
-            </div>
           </header>
 
           <main className='text-[var(--primary-color)] dark:text-gray-300 line-clamp-4 overflow-hidden text-ellipsis relative leading-[1.7]'>
