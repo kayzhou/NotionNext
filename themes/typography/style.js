@@ -15,6 +15,7 @@ const Style = () => {
       .font-typography {
         font-weight: 400;
         font-family:
+          'LXGW WenKai',
           Source Sans Pro,
           Roboto,
           Helvetica,
@@ -62,12 +63,12 @@ const Style = () => {
       }
 
       #theme-typography #blog-name {
-        font-family: HiraMinProN-W6, 'Source Han Serif CN',
+        font-family: 'LXGW WenKai', HiraMinProN-W6, 'Source Han Serif CN',
           'Source Han Serif SC', 'Source Han Serif TC', serif;
       }
 
       #theme-typography #blog-name-en {
-        font-family: HiraMinProN-W6, 'Source Han Serif CN',
+        font-family: 'LXGW WenKai', HiraMinProN-W6, 'Source Han Serif CN',
           'Source Han Serif SC', 'Source Han Serif TC', serif;
       }
 
