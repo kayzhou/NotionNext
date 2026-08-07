@@ -182,6 +182,7 @@ const SEO = props => {
       <meta name='twitter:image:alt' content={title} />
 
       <link rel='icon' href={BLOG_FAVICON} />
+      <link rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png' />
 
       {COMMENT_WEBMENTION_ENABLE && (
         <>
